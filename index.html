@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div id="scorecard_wrapper">
+      <table id="scorecard">
+        <thead>
+          <tr>
+            <td colspan="2">Scorecard</td>
+          </tr>
+          <tr>
+            <td>X</td>
+            <td>O</td>
+          </tr>
+        </thead>
+        <tbody>
+          <td id="x">0</td>
+          <td id="o">0</td>
+        </tbody>
+      </table>
+    </div>
+
+    <div id="board" class="board x">
+      <div class="cell">1</div>
+      <div class="cell">2</div>
+      <div class="cell">3</div>
+      <div class="cell">4</div>
+      <div class="cell">5</div>
+      <div class="cell">6</div>
+      <div class="cell">7</div>
+      <div class="cell">8</div>
+      <div class="cell">9</div>
+    </div>
+
+    <div class="overley show">
+      <h1 class="message">Click to start</h1>
+      <button id="startBtn">Start</button>
+    </div>
+    <audio id="tic" src="./audio/tic.mp3"></audio>
+    <audio id="tac" src="./audio/tac.mp3"></audio>
+    <audio id="draw" src="./audio/draw.mp3"></audio>
+    <audio id="win" src="./audio/win.mp3"></audio>
+    <script src="js.js"></script>
+  </body>
+</html>
